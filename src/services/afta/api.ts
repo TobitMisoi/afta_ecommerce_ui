@@ -23,10 +23,12 @@ export async function outLogin(options?: { [key: string]: any }) {
 // POST /login
 export async function login(body: any, options?: { [key: string]: any }) {
   console.log(body)
-  return request(API_DOMAIN + '/login', {
+  return request(API_DOMAIN + '/login/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      "Device-Name": "Windows",
+      "Device-Id": "12345"
     },
     data: body,
     ...(options || {}),
@@ -36,10 +38,12 @@ export async function login(body: any, options?: { [key: string]: any }) {
 // POST /signup
 export async function signup(body: any, options?: { [key: string]: any }) {
   console.log(body)
-  return request(API_DOMAIN + '/signup', {
+  return request(API_DOMAIN + '/signup/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      "Device-Name": "Windows",
+      "Device-Id": "12345"
     },
     data: body,
     ...(options || {}),

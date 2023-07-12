@@ -3,7 +3,7 @@
 import {
   IntlCache,
   createIntl,
-} from '/home/tobit/codecave/afta_commerce_ui/node_modules/react-intl';
+} from '/home/tobit/codecave/afta_ui/node_modules/react-intl';
 type OptionalIntlConfig = Omit<Parameters<typeof createIntl>[0], 'locale' | 'defaultLocale'>;
 export interface IRuntimeConfig {
     locale?: {

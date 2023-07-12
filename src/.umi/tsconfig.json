@@ -27,7 +27,7 @@
         "src/.umi/*"
       ],
       "@umijs/max": [
-        "/home/tobit/codecave/afta_commerce_ui/node_modules/umi"
+        "/home/tobit/codecave/afta_ui/node_modules/umi"
       ],
       "@umijs/max/typings": [
         "src/.umi/typings"

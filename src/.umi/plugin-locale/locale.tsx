@@ -4,15 +4,15 @@
 import React from 'react';
 import { ConfigProvider } from 'antd';
 
-import moment from '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/bn-bd';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/en';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/fa';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/id';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/ja';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/pt-br';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/zh-cn';
-import '/home/tobit/codecave/afta_commerce_ui/node_modules/dayjs/locale/zh-tw';
+import moment from '/home/tobit/codecave/afta_ui/node_modules/dayjs';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/bn-bd';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/en';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/fa';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/id';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/ja';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/pt-br';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/zh-cn';
+import '/home/tobit/codecave/afta_ui/node_modules/dayjs/locale/zh-tw';
 import { RawIntlProvider, getLocale, getDirection , setIntl, getIntl, localeInfo, event, LANG_CHANGE_EVENT } from './localeExports';
 
 

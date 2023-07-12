@@ -3,14 +3,14 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from '/home/tobit/codecave/afta_commerce_ui/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from '/home/tobit/codecave/afta_ui/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
-import '/home/tobit/codecave/afta_commerce_ui/src/global.less';
-import '/home/tobit/codecave/afta_commerce_ui/src/global.tsx';
+import '/home/tobit/codecave/afta_ui/src/global.less';
+import '/home/tobit/codecave/afta_ui/src/global.tsx';
 import 'antd/dist/reset.css';
 const publicPath = '/';
 const runtimePublicPath = false;
