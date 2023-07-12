@@ -141,7 +141,7 @@ const Login: React.FC = () => {
       <Helmet>
         <title>
           {intl.formatMessage({
-            id: "pages.login.success",
+            // id: "pages.login.success",
             defaultMessage: "Login",
           })}{" "}
           | AFTA
