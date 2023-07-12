@@ -117,7 +117,7 @@ console.log(msg)
         message.success(defaultLoginSuccessMessage);
         await fetchUserInfo();
         const urlParams = new URL(window.location.href).searchParams;
-        history.push(urlParams.get('redirect') || '/');
+        history.push(urlParams.get('redirect') || '/product');
         return;
       }
       setUserLoginState({ status: 'error', type: "account" });

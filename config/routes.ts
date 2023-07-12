@@ -37,7 +37,7 @@
     // component: '@/pages/Jokes',
     // hideInMenu: true,
   },
- 
+  { path: "/", redirect: "/product" },
   {
     path: '*',
     layout: false,
