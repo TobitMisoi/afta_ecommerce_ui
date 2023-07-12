@@ -140,11 +140,7 @@ const Login: React.FC = () => {
     <div className={containerClassName}>
       <Helmet>
         <title>
-          {intl.formatMessage({
-            // id: "pages.login.success",
-            defaultMessage: "Login",
-          })}{" "}
-          | AFTA
+          Login | AFTA
         </title>
       </Helmet>
       <Lang />
